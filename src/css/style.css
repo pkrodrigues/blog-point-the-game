@@ -186,7 +186,7 @@ body {
 .display-welcome {
   display: flex;
   flex-direction: row; /* Elementos alinhados na horizontal */
-  width: 100%;
+  width: 80%;
   height: auto;
   justify-content: space-around;
   align-items: center;
@@ -244,11 +244,16 @@ body {
 }
 
 /* Seçao de destaques */
-.display-post-destaque {
+.display-content {
+  display: flex;
+  flex-direction: column; /* Alinha elementos na vertical */
+  justify-content: center;
+  align-content: center;
+  width: 70%;
   padding: 20px;
 }
 
-.header-destaque div {
+.header-content div {
     width: 100%;
     height: 60px;
     border-top: 2px solid #000;
@@ -262,7 +267,7 @@ body {
     }
 }
 
-.main-destaque {
+.main-content {
   width: 100%;
   display: flex;
   gap: 20px;
@@ -270,7 +275,7 @@ body {
 
 }
 
-.main-destaque .posts {
+.main-content .posts {
   display:flex;
   flex-direction: column;
   gap: 20px;
@@ -291,7 +296,7 @@ body {
   }
 }
 
-.main-destaque .anuncios {
+.main-content .anuncios {
   display:flex;
   flex-direction: column;
   align-content: space-around;
